@@ -1,10 +1,10 @@
 #!/bin/bash
 
-SPEED=10
-DELAY=10
+SPEED=100
+DELAY=20
 LOSS=0
 REORDER=0
-CORRUPT=10
+CORRUPT=0
 FILENAME=fileX
 
 sudo rm recv_$FILENAME &>/dev/null

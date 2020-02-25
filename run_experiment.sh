@@ -4,7 +4,7 @@ SPEED=10
 DELAY=10
 LOSS=0
 REORDER=0
-CORRUPT=95
+CORRUPT=10
 FILENAME=fileX
 
 sudo rm recv_$FILENAME &>/dev/null

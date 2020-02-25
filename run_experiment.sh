@@ -20,5 +20,4 @@ sleep 1
 
 time ./send $FILENAME $SPEED $DELAY
 
-echo "[SCRIPT] Finished transfer, checking files: $FILENAME recv_$FILENAME"
-diff $FILENAME recv_$FILENAME
+echo "[SCRIPT] Finished transfer, check $FILENAME and recv_$FILENAME using diff"
